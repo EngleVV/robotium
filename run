@@ -1,0 +1,7 @@
+#运行androidTest
+gradle clean
+gradle build
+gradle uninstallAll
+gradle installDebug
+gradle installDebugAndroidTest
+adb shell am instrument -w com.luwei.testrobotium.test/android.test.InstrumentationTestRunner

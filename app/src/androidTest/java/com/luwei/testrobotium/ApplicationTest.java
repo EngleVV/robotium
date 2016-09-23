@@ -60,6 +60,6 @@ public class ApplicationTest extends ActivityInstrumentationTestCase2 {
 
 
 
-        assertTrue("文案错误2", solo.searchText("aaa"));
+        assertTrue("文案错误2", solo.searchText("跳转"));
     }
 }
